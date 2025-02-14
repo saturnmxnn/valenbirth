@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title> miao:33 </title>
+	<head>
+	<style> 
+		div{
+			text-align:center;
+			vertical-align:middle;
+			}
+		#image{
+			display:none;
+			}
+		p{
+			text-align:left;
+			font-family:verdana;
+			}
+		h1{
+			font-family:trebuchet ms;
+			text-align:middle;
+			}
+		#no{
+			position:absolute;
+			background-color:#FAA0A0;
+			font-size:100px;
+			border-radius:4px;
+			font-family:verdana;
+			outline:none;
+			}
+		#yesButton{
+			background-color:#C1E1C1;
+			font-size:100px;
+			border-radius:4px;
+			font-family:verdana;
+			}
+		#bro{
+			width:20%;
+			height:30%;
+			display:none;
+			}
+		audio::-webkit-media-controls-panel{
+			background-color: #C3B1E1;
+			}
+		audio::-webkit-media-controls-mute-button 
+			background-color: #966fd6;
+			border-radius: 30%;
+			}
+		audio::-webkit-media-controls-play-button{
+			background-color: #B1D4E0;
+			border-radius: 50%;
+			}
+		audio::-webkit-media-controls-play-button:hover{
+			background-color: rgba(177,212,224, .7);
+			border-radius: 10%;
+			}
+	</style>
+	<body bgcolor="#A7C7E7">
+		<div>
+			<p> <span title="happy valenbirth yippie yo"> happy velenbirth yoyoyo( ˶ˆᗜˆ˵ ) </p>
+			<br><br><br><br>
+			<h1> <i> <span title="hello the"> happy valenyeehaww ⸜(｡˃ ᵕ ˂ )⸝♡ <i> 	</h1>
+			<button type="button" onclick="show()" id="yesButton"> Yay valentine </button>
+			<center> <img id="image" src="pompompurin-miikun.gif" /> <center>
+			<br>
+			<button id="no"> no shut up </button>
+			<center-left> <a href="https://tenor.com/view/chikawa-gif-25467257"> click for surpice </a> <center-left>
+			<marquee behaviour=scroll direction="right" scrollamount="10"><img id="bro" align= "left" src="brome.png" /></marquee>
+				
+					<audio id="song" controls autoplay>
+						<source src="Passenger Seat.mp3" type="audio/ogg">
+						<source src="Passenger Seat.mp3" type="audio/mpeg">
+					</audio>
+				
+		</div>
+		<script>
+				document.getElementById("yesButton").addEventListener("click", function()
+			{
+				alert("yay happy valentines the (◠‿◠✿)");
+			});
+				var b = document.getElementById("no")
+				b.addEventListener("click", change);
+				function change()	
+			{
+					var i = Math.floor(Math.random()*1000)+1;
+					var j = Math.floor(Math.random()*700)+1;
+					b.style.left = i+"px";
+					b.style.top = j+"px";
+			}
+			function show() 
+			{
+			document.getElementById('bro')
+				.style.display = "block";
+			document.getElementById('image')
+				.style.display = "block";
+			document.getElementById('yesButton')
+				.style.display = "none";
+			}
+			
+		</script>
+	</body>
+</html>
